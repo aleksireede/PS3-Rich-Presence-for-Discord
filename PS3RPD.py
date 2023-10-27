@@ -16,7 +16,7 @@ from time import time
 class PrepWork:     # Python2 class should be "class PrepWork(object):" ?
     def __init__(self):
         self.ip = None
-        self.clientID = '780389261870235650'
+        self.clientID = '1167186052465840178'
         self.waitTime = '35'  # seconds
         self.showTemps = 'True'
         self.indivRetroCovers = 'False'
@@ -348,7 +348,7 @@ while True:
             gatherDetails.get_thermals()
             gatherDetails.thermalData = gatherDetails.thermalData.replace('Â','')  # ! bandaid fix ! ANSI encoding is being used on some users??
         gatherDetails.decide_game_type()
-        # print(f'{gatherDetails.name}, {gatherDetails.thermalData}, {gatherDetails.image}, {gatherDetails.titleID}')   # debugging
+        #print(f'{gatherDetails.name}, {gatherDetails.thermalData}, {gatherDetails.image}, {gatherDetails.titleID}')   # debugging
         gatherDetails.name = gatherDetails.name.replace('Â','')                 # ! bandaid fix ! ANSI encoding is being used on some users??
 
         try:
