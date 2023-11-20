@@ -3,6 +3,9 @@ Discord Rich Presence script for PS3 consoles on HFW&HEN or CFW.
 
 Display what you are playing on your PS3 via Discord's game activity.
 
+# Installation
+pip3 install networkscan bs4 pypresence --break-system-packages
+
 ## Display Example
 <table>
 	<tr>
