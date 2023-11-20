@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from socket import socket, AF_INET, SOCK_DGRAM  # used to get host IP address
 import re  # used for regular expressions
 import networkscan  # used for automatic obtaining IP address, requires pip install
